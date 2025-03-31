@@ -63,11 +63,6 @@ public class Chapter2 {
         members.add(new Person("benjamin", 28));
         for(Person member: members) member.introduce();
     }
-
-
-    public static void main(String[] args) {
-        p10();
-    }
 }
 
 class Person {
