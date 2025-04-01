@@ -57,22 +57,21 @@ public class Chapter2 {
         System.out.println(primeNumbers);
         System.out.println("count: " + count);
     }
+    static class Person {
+        String name;
+        int age;
+        Person(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+        void introduce() {
+            System.out.println("my name is " + name + " and I'm " + age + " years old");
+        }
+    }
     static void p10() {
         ArrayList<Person> members = new ArrayList<>();
         members.add(new Person("edward", 25));
         members.add(new Person("benjamin", 28));
         for(Person member: members) member.introduce();
-    }
-}
-
-class Person {
-    String name;
-    int age;
-    Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-    void introduce() {
-        System.out.println("my name is " + name + " and I'm " + age + " years old");
     }
 }
