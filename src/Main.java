@@ -3,6 +3,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Chapter3.p8();
+        Chapter4.p4();
     }
 }
